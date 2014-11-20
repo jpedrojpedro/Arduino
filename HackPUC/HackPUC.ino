@@ -25,8 +25,8 @@ void setup() {
     StudentBth.begin(9600);
     ProfessorBth.begin(9600);
     Serial.println("Communication Started");
-    StudentBth.println("Communication Started -- Student");
-    ProfessorBth.println("Communication Started -- Professor");
+    StudentBth.println("Communication Started -- Student$");
+    ProfessorBth.println("Communication Started -- Professor$");
 }
 
 void sendingAnswers() {
