@@ -51,7 +51,7 @@ void waitingQuestion() {
     if(ProfessorBth.available()) {
         while(ProfessorBth.available())
             val += (char)ProfessorBth.read();
-        if (val.substring(val.length() - 6, val.length()-2) == "QTN$") {
+        if (val.substring(val.length() - 4, val.length()) == "QTN$") {
             Serial.println("Professor's Message");
             Serial.println(val);
             StudentBth.println(val);
