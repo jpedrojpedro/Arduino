@@ -39,7 +39,7 @@ void sendingAnswers() {
     result += answers[2];
     result += ";D:"; 
     result += answers[3];
-    result += "$";
+    result += "ASW$";
     for(int i=0; i<4; i++)
         answers[i] = 0;
     ProfessorBth.println(result);
